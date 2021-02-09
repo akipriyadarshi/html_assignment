@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+ <style>
+         table {border-collapse: collapse; }
+         table, td, th { border: 1px solid black; }
+		 
+      </style>
+    <meta charset="UTF-8">
+    <title>HTML assignment</title>
+</head>
+<body>
+<h2><a href="https://www.w3schools.com/"><font color="green"> w3schools.com</font></a><font size=2px> The world's largest web devloper site</font></h2> 
+<hr>
+    
+	<table>
+  <tr>
+    <th><a href="https://www.w3schools.com/html/">HTML</a></th>
+    <th><a href="https://www.w3schools.com/css/default.asp">CSS</a></th> 
+    <th><a href="https://www.w3schools.com/js/default.asp">JAVASCRIPT</a></th>
+	<th><a href="https://www.w3schools.com/python/default.asp">PYTHON</a></th>
+  </th>
+  </table>
+	<br><hr>
+<h1>HTML Introduction</h1>
+Html is a standard markup language for creating web pages
+ <p>1<a href="#t1">What is HTML</a></p>
+ <p>2<a href="#t2">What is HTML element</a></p>
+<p>3<a href="#t3">Web Browser</a></p>
+<br>
+<h2 id="t1">What is HTML</h2>
+<ul>
+<li>HTML stands for Hyper Text Markup Language</li>
+<li>HTML is the standard markup language for creating Web pages</li>
+<li>HTML describes the structure of a Web page</li>
+<li>HTML consists of a series of elements</li>
+<li>HTML elements tell the browser how to display the content
+<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+<br>
+<h2 id="t2">what is an HTML element?</h2>
+<p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+<span style="color:brown"> 
+<span style="color:mediumblue"><</span>
+tagname
+<span style="color:mediumblue">></span>
+</span>
+content goes here...
+<span style="color:brown"> 
+<span style="color:mediumblue"><</span>
+/tagname
+<span style="color:mediumblue">></span>
+</span>
+<p>The HTML element is everything from the start tag to the end tag</p>
+<span style="color:brown"> 
+<span style="color:mediumblue"><</span>
+h1
+<span style="color:mediumblue">></span>
+</span>
+My First Heading
+<span style="color:brown"> 
+<span style="color:mediumblue"><</span>
+/h1
+<span style="color:mediumblue">></span>
+</span>
+<br>
+<span style="color:brown"> 
+<span style="color:mediumblue"><</span>
+p
+<span style="color:mediumblue">></span>
+</span>
+My first paragraph.
+<span style="color:brown"> 
+<span style="color:mediumblue"><</span>
+/p
+<span style="color:mediumblue">></span>
+</span>
+<br>
+<br>
+<table>
+  <tr>
+    <th>Start tag</th>
+    <th>Element content</th> 
+    <th>End tag</th>
+  </tr>
+  <tr>
+    <td><span style="color:black"><</span>
+h1
+<span style="color:black">></span>
+</span></td>
+    <td>My First Heading</td>
+    <td><span style="color:black"><</span>
+/h1
+<span style="color:black">></span>
+</span></td>
+  </tr>
+  <tr>
+    <td><span style="color:black"><</span>
+p
+<span style="color:black">></span>
+</span></td>
+    <td>My First Paragraph</td>
+    <td><span style="color:black"><</span>
+/p
+<span style="color:black">></span>
+</span></td>
+  </tr>
+  <tr>
+    <td><span style="color:black"><</span>
+br
+<span style="color:black">></span>
+</span></td>
+    <td>none</td>
+    <td>none</td>
+  </tr>
+</table>
+<h2 id="t3">Web browsers</h2>
+<p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</p>
+<p>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+<p>
+<img alt="view in browser" src="https://www.w3schools.com/html/img_chrome.png">
+</p>
+<br>
+<br>
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John">
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+   <label for="rating">Rate it:</label>
+  <select>
+    <option value="Very good">Very good</option>
+    <option value="good">good</option>
+    <option value="satisfactory">satisfactory</option>
+    <option value="poor">poor</option>
+  </select><br>
+  <textarea  rows="4" cols="50" placeholder="please add a review."></textarea><br>
+  <input type="submit" value="Submit">
+
+</body>
+</html>
